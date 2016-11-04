@@ -1,0 +1,61 @@
+1.An HTML document can be created using .html or.htm 	
+  extension
+
+  Reference:
+  http://www.unc.edu/~twtaylor/teaching/29/web/notepad.html
+
+
+2.The open and close tags including the content between 
+  the tags is called an element
+  <tagname>Content goes here...</tagname>
+
+  Reference:
+  http://www.w3schools.com/html/html_elements.asp
+
+
+3.Attribute is the property and property value of an 
+  element
+  All HTML elements can have attributes
+  Attributes provide additional information about an element
+  Attributes are always specified in the start tag
+  Attributes usually come in name/value pairs like: name="value"
+
+  Reference:
+  http://www.w3schools.com/html/html_attributes.asp
+
+
+4.If an element is inside another element, then the 
+  former is called child element and latter is called parent.
+  <parent_element><child_element></child_element></parent_element>
+
+
+5.December 18, 1997 	HTML 4.0
+  April 24, 1998 		HTML 4.0
+  December 24, 1999 	HTML 4.01
+  October 28, 2014		HTML 5
+
+
+  Reference:
+  http://www.w3schools.com/html/html_intro.asp
+
+  https://en.wikipedia.org/wiki/HTML
+
+
+6.Key differences
+  Consistency in Handling Malformed Documents
+  Better Web Application Features
+  Improved Element Semantics
+
+  Reference:
+  http://stackoverflow.com/questions/134727/whats-the-key-difference-between-html-4-and-html-5
+
+  https://www.w3.org/TR/html5-diff/
+
+
+7.This is the browser understandle format.
+  Also we can assume it to be a translator between humans and server.
+  HTML is used to create electronic documents (called 
+  pages) that are displayed on the World Wide Web. Each page contains a series of connections to other pages called hyperlinks.
+  
+  Reference:
+  http://www.computerhope.com/jargon/h/html.htm
