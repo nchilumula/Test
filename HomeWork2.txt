@@ -1,0 +1,84 @@
+1.Clone
+	When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations.
+
+	Reference:
+	https://help.github.com/articles/cloning-a-repository/
+
+  Commit
+  	Basically git commit "records changes to the repository". This is used in connection with your local repository.
+
+  	Reference:
+  	http://stackoverflow.com/questions/2745076/what-are-the-differences-between-git-commit-and-git-push
+
+  Push
+  	Git push "updates remote refs along with associated objects". This is used to interact with a remote repository.
+
+  	Reference:
+  	http://stackoverflow.com/questions/2745076/what-are-the-differences-between-git-commit-and-git-push
+
+
+2.Local Repository
+	The Working Directory is wherever your files are on your local machine. The Local Repository is the .git/ subdirectory inside the Working Directory. The Index is a conceptual place that also physically resides in the .git/ subdirectory.
+
+	Reference:
+	http://stackoverflow.com/questions/8855880/where-is-the-local-repository-located
+
+  Remote Repository
+  	Remote repositories are hosted on the Internet or network somewhere, on servers.
+
+  	Reference:
+  	https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+
+
+3.Branching
+	When you commit in Git, Git stores a commit object that contains a pointer to the snapshot of the content you staged, the author and message metadata, and zero or more pointers to the commit or commits that were the direct parents of this commit: zero parents for the first commit, one parent for a normal commit, and multiple parents for a commit that results from a merge of two or more branches.
+
+	Reference:
+	https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is
+
+  We can Create a branch using 
+  	$ git branch testing
+
+  To switch to an existing branch, you run the git checkout command.
+	$ git checkout testing
+
+	Reference:
+	https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
+
+  Branching Strategies
+  	A branching strategy itself is a process; a document. It's the place where, as a team, you capture your approach and attitude to the way that you produce, track and ship code. Everyone understands how each of the moving parts in the process works (at least on the code level – social and political issues are a topic for another article), and how to collaborate to achieve the goal that you're all aiming for. A branching strategy can be a simple as a page on the company wiki – something that gives structure to the way that you work. It may also be a great place to put the Git cheatsheet for how to do the various steps.
+
+  	References:
+  	http://www.creativebloq.com/web-design/choose-right-git-branching-strategy-121518344
+
+  	https://www.visualstudio.com/en-us/articles/git-branching-guidance
+
+
+4.Merge Conflict
+	 If two people changed the same lines in that same file, or if one person decided to delete it while the other person decided to modify it, Git simply cannot know what is correct. Git will then mark the file as having a conflict - which you'll have to solve before you can continue your work.
+
+  Resolve Conflict
+  	Remove <<<<<<< HEAD, ======== and >>>>>>>
+  	Modify the file and then commit.
+
+  	Reference:
+  	https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/merge-conflicts
+
+
+5.Fetch and Pull
+	In the simplest terms, git pull does a git fetch followed by a git merge.
+
+	You can do a git fetch at any time to update your remote-tracking branches under refs/remotes/<remote>/. This operation never changes any of your own local branches under refs/heads, and is safe to do without changing your working copy. I have even heard of people running git fetch periodically in a cron job in the background (although I wouldn't recommend doing this).
+
+	A git pull is what you would do to bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
+
+	Reference:
+	http://stackoverflow.com/questions/292357/what-are-the-differences-between-git-pull-and-git-fetch
+
+  Stash
+  	The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
+
+  	Note that the stash is local to your Git repository; stashes are not transferred to the server when you push.
+
+  	Reference:
+  	https://www.atlassian.com/git/tutorials/git-stash/
