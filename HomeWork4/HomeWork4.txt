@@ -1,0 +1,58 @@
+1.inputTypes.html
+
+2.q2.html
+
+3.Links
+  HTML links are hyperlinks.
+  You can click on a link and jump to another document.
+  <a href="url">link text</a>
+
+  Lists
+  Unordered list-no index
+  <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+  </ul>
+
+  Ordered List-indexed
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+  </ol>
+
+  Tables
+  An HTML table is defined with the <table> tag.
+  Each table row is defined with the <tr> tag. A table header is defined with the <th> tag. By default, table headings are bold and centered. A table data/cell is defined with the <td> tag.
+
+  Reference:
+  http://www.w3schools.com/html/
+
+4.Key differences
+  Consistency in Handling Malformed Documents
+  Better Web Application Features
+  Improved Element Semantics
+
+  Reference:
+  http://stackoverflow.com/questions/134727/whats-the-key-difference-between-html-4-and-html-5
+
+  https://www.w3.org/TR/html5-diff/
+
+5.The <!DOCTYPE> declaration must be the very first thing 
+  in your HTML document, before the <html> tag.
+  The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.
+  There are three different <!DOCTYPE> declarations in HTML 4.01. In HTML5 there is only one:<!DOCTYPE html>
+
+  Reference:
+  http://www.w3schools.com/TAGS/tag_doctype.asp
+
+6.<!DOCTYPE html>
+  <html>
+  	<head>
+  		<title>
+  		</title>
+  	</head>
+  	<body>
+  	</body>
+  </html>
