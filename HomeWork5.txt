@@ -1,0 +1,61 @@
+1.A semantic element clearly describes its meaning to 
+  both the browser and the developer.
+  Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+  Reference:
+  http://www.w3schools.com/html/html5_semantic_elements.asp
+
+
+2.The <section> element defines a section in a document.
+  The <article> element specifies independent, self-contained content.
+  The <header> element specifies a header for a document or section.
+  The <footer> element specifies a footer for a document or section.
+  The <nav> element defines a set of navigation links.
+  The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+  The <img> element defines the image, the <figcaption> element defines the caption.
+
+
+  Why Semantic Elements?
+  With HTML4, developers used their own id/class names to style elements: header, top, bottom, footer, menu, navigation, main, container, content, article, sidebar, topnav, etc.
+  This made it impossible for search engines to identify the correct web page content.
+  With the new HTML5 elements (<header> <footer> <nav> <section> <article>), this will become easier.
+  According to the W3C, a Semantic Web: "Allows data to be shared and reused across applications, enterprises, and communities."
+
+
+ Reference:
+ http://www.w3schools.com/html/html5_semantic_elements.asp
+
+
+3.The methods or tags that simplify the development of a 
+  web page are present in an API. For example audio API which provides the developer to include play, pause and stop buttons to an audio file.
+
+
+4.Storage:
+  sessionStorage maintains a separate storage area for each given origin that's available for the duration of the page session (as long as the browser is open, including page reloads and restores). 
+  localStorage does the same thing, but persists even when the browser is closed and reopened.
+
+
+  Application cache:
+  HTML5 introduces application cache, which means that a web application is cached, and accessible without an internet connection.
+
+  Application cache gives an application three advantages:
+
+  Offline browsing - users can use the application when they're offline
+  Speed - cached resources load faster
+  Reduced server load - the browser will only download updated/changed resources from the server
+
+
+  Web Worker:
+  When executing scripts in an HTML page, the page becomes unresponsive until the script is finished.
+
+  A web worker is a JavaScript that runs in the background, independently of other scripts, without affecting the performance of the page. You can continue to do whatever you want: clicking, selecting things, etc., while the web worker runs in the background.
+
+
+  Reference:
+  http://www.w3schools.com/html/html5_webstorage.asp
+
+  https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
+
+  http://www.w3schools.com/html/html5_webworkers.asp
+
+  http://www.w3schools.com/html/html5_app_cache.asp
