@@ -1,0 +1,28 @@
+1.Selectors are patterns used to select the element(s)
+  you want to style.
+
+  Reference:
+  http://www.w3schools.com/cssreF/css_selectors.asp
+
+
+2.Id:
+  An ID can be given to only one element. It can be selected refering the ID.
+
+  Class:
+  Group of elements can fall under a class. All the elements can be selected using the class name.
+
+  Tag-name:
+  We can use tagname to refer all the elements with that tagname.
+
+
+3.Specificity is the means by which browsers decide which 
+  CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.
+
+  Specificity only applies when the same element is targeted by multiple declarations. As per CSS rules, directly targeted element will always take precedence over rules which an element inherits from its ancestor.
+
+  Reference:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
+
+4.CSS properties are used in styling an element`s text,
+  position on page, color, weight, visibility, background, padding, border, margin,.......
