@@ -1,0 +1,32 @@
+1.CSS is the language for describing the presentation of  
+  Web pages, including colors, layout, and fonts.
+  Cascade means, Web page derived from multiple sources with a defined order of precedence where the definitions of any style element conflict.
+
+  Reference:
+  http://www.w3schools.com/css/css_intro.asp
+
+  https://www.w3.org/standards/webdesign/htmlcss
+
+  http://css.maxdesign.com.au/selectutorial/advanced_cascade.htm
+
+  http://searchsoa.techtarget.com/definition/cascading-style-sheet-CSS
+
+  http://www.bu.edu/tech/services/comm/websites/www/non-wordpress/start/css/css-basics/the-cascade-of-css/
+
+
+2.Inline CSS
+  Embedded CSS
+  External CSS
+
+  Reference:
+  http://webdesign.about.com/od/css/qt/aatypesofcss.htm
+
+
+3.Use CSS to define styles for your documents, including 
+  the design, layout and variations in display for different devices and screen sizes. 
+
+  Reference:
+  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Why_use_CSS
+
+
+4.Resume.html
