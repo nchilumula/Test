@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		*{
+			background-color: lightblue;
+		}
+		div, div p{
+			background-color: white;
+		}
+		div>p{
+			color:darkgreen;
+		}
+		div,p{
+			margin-left: 100px;
+		}
+		p{
+			color:red;
+		}
+		div+p{
+			background-color: lightgreen;
+		}
+		div~p{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<p>Paragraph 1</p>
+<div>Div 1</div>
+<div><p>Paragraph 2</p><p>Paragraph 3</p></div>
+<p>Paragraph 4</p>
+</body>
+</html>

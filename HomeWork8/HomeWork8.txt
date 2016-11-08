@@ -1,0 +1,50 @@
+1.CSS specificity
+  To decide which CSS property values are the most relevant to an element and, therefore, will be applied.Specificity is based on the matching rules which are composed of different sorts of CSS selectors.
+
+  We can have various scenarios of specificity.
+
+  For example: specificity.html
+
+  Reference:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
+  https://designshack.net/articles/css/what-the-heck-is-css-specificity/
+
+
+2.!important in CSS overrides everything.
+  But it is not advised to use it often, except in few cases when you cannot find where the value of an attribute is assigned from. So simple and clear code should be maintained.
+
+  Example using !important: important.html
+
+
+3.Pseudo Element:
+  A CSS pseudo-element is used to style specified parts of an element.
+  It can be used to:
+  	Style the first letter, or line, of an element.
+  	Insert content before, or after, the content of an element.
+
+  Example: pseudoElements.html
+
+  Pseudo Classes:
+  A pseudo-class is used to define a special state of an element.
+  It can be used to:
+  	Style an element when a user mouses over it.
+  	Style visited and unvisited links differently.
+  	Style an element when it gets focus.
+
+  Example: pseudoClasses.html
+
+
+  Reference:
+  http://www.w3schools.com/css/css_pseudo_elements.asp
+
+  http://www.w3schools.com/Css/css_pseudo_classes.asp
+
+
+4.CSS selectors
+  In CSS, selectors are patterns used to select the element(s) you want to style.
+
+  Example: selectors.html
+  
+  Reference:
+  http://www.w3schools.com/cssref/css_selectors.asp

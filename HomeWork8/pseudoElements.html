@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		p::after{
+			content: "(using ::after)";
+		}
+		p::before{
+			content: "(using ::before)";
+		}
+		p::first-letter{
+			color:red;
+			font-size: 50px;
+		}
+		p::first-line{
+			background-color: lightblue;
+		}
+		p::selection{
+			background-color: yellow;
+			color:red;
+		}
+	</style>
+</head>
+<body>
+	<p> This is a paragraph</p>
+</body>
+</html>

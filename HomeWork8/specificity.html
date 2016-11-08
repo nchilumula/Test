@@ -1,0 +1,15 @@
+<!Doctype HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	#para
+	{
+		color:red;
+	}
+	</style>
+</head>
+<body><h3 style="color:blue;">Specificity (inline CSS provides color blue, external CSS provides another color. But inline CSS has more preference)</h3>
+<p id="para" class="class1">This is a paragraph.External CSS assigns another color to this id. But the internal CSS is given higher preference.</p>
+<div id="box" class="class1"> This is a div. ID bg-color wins over class bg-color</div></body>
+</html>

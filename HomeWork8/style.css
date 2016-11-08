@@ -1,0 +1,20 @@
+h3{
+	color:red;
+}
+
+#para{
+	color:yellow;
+}
+
+#box{
+	background-color: yellow;
+}
+
+.class1{
+	background-color: lightblue;
+}
+
+#divImportant{
+	color:red !important;
+	background-color: blue;
+}
