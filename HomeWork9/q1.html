@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		p:first-child {
+    		background-color: yellow;
+		}
+		h1:first-of-type {
+			background-color: yellow;
+    		color:blue;
+		}
+		p:nth-child(7) {
+    		background: orange;
+		}
+		p:nth-of-type(4) {
+ 		   color:blue;
+		}
+	</style>
+</head>
+<body>
+<h1>:first-child</h1>
+<p>This paragraph is not the first child of its parent (body). h1 is the first child. This is second child.</p>
+
+<div>
+  <p>This paragraph is the first child of its parent (div).</p>
+  <p>This paragraph is not the first child of its parent. This is second child</p>
+</div>
+<hr>
+<h1>:first-of-type</h1>
+<p>The previous h1 is first of type h1, in body. So its background is yellow, not for this h1.</p>
+<hr>
+<h1>:nth-child(n)</h1>
+<p>This is child 7 in body. </p>
+<hr>
+<h1>:nth-of-type(n)</h1>
+<p>This is child 4 in (p) type, in body.</p>
+</body>
+</html>
