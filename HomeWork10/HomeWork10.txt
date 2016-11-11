@@ -1,0 +1,76 @@
+1.Media queries:
+  The @media rule is used to define different style rules for different media types/devices.
+
+  In CSS2 this was called media types, while in CSS3 it is called media queries.
+
+  Media queries look at the capability of the device, and can be used to check many things, such as:
+
+  width and height of the viewport
+  orientation (is the tablet/phone in landscape or portrait mode?)
+  resolution
+  and much more
+
+  @media print
+  Used to create print styles using @media print
+
+  @media speech
+  Intended for speech synthesizers
+  @media speech {
+  	body { voice-family: Paul }
+  }
+
+  Example: mediaQueries.html
+
+  Reference:
+  http://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+
+  https://developer.mozilla.org/en-US/docs/Web/CSS/@media
+
+  https://www.w3.org/TR/CSS2/aural.html
+
+
+2.The value at which the media property triggers is  
+  called breakpoint.
+
+3.Mobiles:
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  }
+
+  Tablets:
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  }
+
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  }
+
+  Reference:
+  https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+
+4.Bootstrap is a free front-end framework for faster and 
+  easier web development
+  
+  Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+
+  Bootstrap also gives you the ability to easily create responsive designs
+
+  Getting Bootstrap:
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
