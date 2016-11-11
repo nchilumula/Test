@@ -1,0 +1,67 @@
+1.Bootstrap Grid System
+  Bootstrap's grid system allows up to 12 columns across the page.
+
+  If you do not want to use all 12 column individually, you can group the columns together to create wider columns.
+
+  Bootstrap's grid system is responsive, and the columns will re-arrange depending on the screen size: On a big screen it might look better with the content organized in three columns, but on a small screen it would be better if the content items were stacked on top of each other.
+
+  Example:
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      One of three columns
+    </div>
+    <div class="col-sm-4">
+      One of three columns
+    </div>
+    <div class="col-sm-4">
+      One of three columns
+    </div>
+  </div>
+  </div>
+
+  Reference:
+  https://v4-alpha.getbootstrap.com/layout/grid/
+
+  http://www.w3schools.com/Bootstrap/bootstrap_grid_system.asp
+
+
+2.The Bootstrap grid system has four classes:
+  xs (for phones)
+  sm (for tablets)
+  md (for desktops)
+  lg (for larger desktops)
+  
+  The classes above can be combined to create more dynamic and flexible layouts.
+
+  Example: classes.html
+
+  Reference:
+  http://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
+
+  http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_grid_ex3&stacked=h
+
+
+3.There are lots of bootstrap components like buttons, 
+  icons, form input types, navigation menu, and many.
+
+  Bootstrap panels:
+  A panel in bootstrap is a bordered box with some padding around its content.
+  Panels are created with the .panel class, and content inside the panel has a .panel-body class.
+
+  Bootstrap Buttons:
+  Bootstrap includes six predefined button styles, each serving its own semantic purpose.
+
+  Bootstrap Input
+  Bootstrap supports all the HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
+
+  Example: components.html
+
+  Reference:
+  http://www.w3schools.com/bootstrap/bootstrap_panels.asp
+
+  https://v4-alpha.getbootstrap.com/components/buttons/
+
+  http://getbootstrap.com/2.3.2/components.html
+
+  http://www.w3schools.com/bootstrap/bootstrap_forms_inputs.asp
