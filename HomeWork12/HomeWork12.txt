@@ -1,0 +1,22 @@
+Bootstrap Components:
+Glyphicons- over 250 glyphs are available
+Dropdowns
+Navs
+Thumbnails
+Progress bars
+Alerts
+Media Object
+Labels and badges
+Typography
+Breadcrumbs
+
+Example: example.html
+
+Reference:
+	http://getbootstrap.com/2.3.2/components.html#breadcrumbs
+
+	http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
+
+	http://www.w3schools.com/bootstrap/bootstrap_ref_comp_dropdowns.asp
+
+	http://www.w3schools.com/bootstrap/bootstrap_ref_comp_navs.asp
