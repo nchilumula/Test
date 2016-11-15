@@ -1,0 +1,39 @@
+2.CSS is primitive and incomplete.
+  In order to write better CSS, pre-processing is required.
+
+  Variables, nesting, inheritance and many other features are included in Sass, Stylus, LESS
+
+  Reference:
+  https://www.urbaninsight.com/2012/04/12/ten-reasons-you-should-be-using-css-preprocessor
+
+  http://htmlmag.com/article/an-introduction-to-css-preprocessors-sass-less-stylus
+
+  https://raygun.com/blog/2015/05/6-reasons-you-should-use-a-css-preprocessor/
+
+
+3.Pre-processing:
+  We develop a Sass stylesheet from which CSS is generated.
+
+  Variables:
+  Sass enables us to write variables like any other programming language.
+
+  Nesting:
+  Styling elements inside an element using nested hierarchy. Instead of using space, >, ^ symbols to style the elements inside an element.
+
+  Partials:
+  Partial Sass files that contain little snippets of CSS that can be included in other files.
+
+  Import:
+  Sass lets us to import multiple .scss files into another .scss file.
+
+  Mixins:
+  Similar to a method or a function.
+
+  Inheritance:
+  Sass helps keep the code DRY(don`t repeat yourself).
+
+  Operators:
+  Simple math operations can be done in Sass.
+
+  Reference:
+  http://sass-lang.com/guide
