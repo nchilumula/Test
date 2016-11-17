@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>AND</h1>
+<p id="demo"></p><hr>
+<h1>OR</h1>
+<p id="demo1"></p>
+
+<script>
+var x = 6;
+var y = 3;
+
+document.getElementById("demo1").innerHTML =
+(x === 5 || y === 5) + "<br>" +
+(x === 6 || y === 5) + "<br>" +
+(x === 6 || y === 3);
+</script>
+
+<script>
+var x = 6;
+var y = 3;
+
+document.getElementById("demo").innerHTML =
+(x < 10 && y > 1) + "<br>" +
+(x < 10 && y < 1);
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,76 @@
+1.JS for, if, while and do while are similar to Java
+  
+  Example: conditions.html
+
+  Reference:
+  http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_state_dowhile
+
+  http://www.w3schools.com/js/tryit.asp?filename=tryjs_while
+
+  http://www.w3schools.com/js/tryit.asp?filename=tryjs_ifthen
+
+  http://www.w3schools.com/js/tryit.asp?filename=tryjs_loop_for
+
+
+2.AND (&&)
+  Returns true only when both the conditions are true.
+
+  OR (||)
+  Returns true when either of the conditions is true.
+
+  Example: logical.html
+
+  Reference:
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators
+
+  http://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison_and
+
+  http://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison_or
+
+  http://www.w3schools.com/js/js_comparisons.asp
+
+
+3.The following values are always falsy:
+	false
+	0 (zero)
+	"" (empty string)
+	null
+	undefined
+	NaN (a special Number value meaning Not-a-Number!)
+
+  All other values are truthy, including "0" (zero in quotes), "false" (false in quotes), empty functions, empty arrays, and empty objects.
+
+  Reference:
+  https://www.sitepoint.com/javascript-truthy-falsy/
+
+  http://adripofjavascript.com/blog/drips/truthy-and-falsy-values-in-javascript.html
+
+  https://developer.mozilla.org/en-US/docs/Glossary/Truthy
+
+
+4.The main use of Javascript is that it allows you to 
+  make things happen in the user's browser without sending messages back and forth to the server. There are a variety of reasons why you might want to do this.
+
+  Evaluating information that is entered before clicking on submit, instead of after click verification.
+
+  Similarly, trying to do animation with round trips to the server would be unlikely to work, it would be way too slow. One way to do it would be with Javascript.
+
+  Reference:
+  http://stackoverflow.com/questions/3497115/what-is-the-use-of-javascript
+
+  http://www.quirksmode.org/js/intro.html
+
+  http://javascript.about.com/od/hintsandtips/a/whyjavascript.htm
+
+
+5.Operator precedence determines the order in which 
+  operators are evaluated. Operators with higher precedence are evaluated first.
+
+  Multiplication (*) and division (/) have higher precedence than addition (+) and subtraction (-).
+
+  And (as in school mathematics) the precedence can be changed by using parentheses.
+
+  Reference:
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+  http://www.w3schools.com/js/js_arithmetic.asp
