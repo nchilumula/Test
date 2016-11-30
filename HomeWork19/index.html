@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	var obj1={
+			  property1: "value1",
+			  property2: "value2"
+			  }
+
+     var obj2 = new Object();
+     obj2.property1 = "value3";
+     obj2.property2 = "value4";
+     console.log(obj1);
+     console.log(obj2);
+     console.log('_____________________________________');
+
+     //For in loop
+     var text = "";
+     var x;
+     for (x in obj1){
+     	text = obj1[x];
+     	console.log("text = " + text);
+     }
+     console.log('_____________________________________');
+
+     //hasOwnProperty()
+     console.log(obj1.hasOwnProperty("property1"));
+     var s="String";
+     console.log(s.hasOwnProperty("split"));
+     console.log(String.prototype.hasOwnProperty("split"));
+     console.log('_____________________________________');
+
+     //Object.keys() & this keyword
+     function Pasta(grain, width, shape) {
+			    this.grain = grain;
+			    this.width = width;
+			    this.shape = shape;
+			    this.toString = function () {
+			        return (this.grain + ", " + this.width + ", " + this.shape);
+			    }
+			}
+			var spaghetti = new Pasta("wheat", 0.2, "circle");
+			var arr = Object.keys(spaghetti);
+			console.log(arr);
+     console.log('_____________________________________');
+
+     //Object.define()
+     var obj = {};
+		Object.defineProperty(obj, "newDataProperty", {
+		    value: 101,
+		    writable: true,
+		    enumerable: true,
+		    configurable: true
+		});
+		obj.newDataProperty = 102;
+		console.log("Property value: " + obj.newDataProperty);
+
+
+     </script>
+</body>
+</html>
