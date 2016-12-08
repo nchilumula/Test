@@ -1,0 +1,60 @@
+1.innerHTML
+  The innerHTML property sets or returns the HTML content (inner HTML) of an element.
+
+  Reference:
+  http://www.w3schools.com/jsref/prop_html_innerhtml.asp
+
+
+2.selectors in javascript
+  getElementById('')
+  getElementByTagName('')
+  getElementByClass('')
+  document.querySelectorAll('')
+
+  Reference:
+  http://www.w3schools.com/
+
+
+3.AJAX is a developer's dream, because you can:
+  Update a web page without reloading the page
+  Request & Receive data from a server - after the page has loaded
+  Send data to a server - in the background
+
+  AJAX is not a programming language.
+  AJAX is a technique for accesing web servers from a web page.
+  AJAX stands for Asyncronous JavaScript And XML.
+
+  Reference:
+  http://www.w3schools.com/xml/ajax_intro.asp
+
+
+4.With the object model, JavaScript gets all the power it 
+  needs to create dynamic HTML: 
+	JavaScript can add/remove/change all the HTML elements & attributes in the page
+	JavaScript can change all the CSS styles in the page
+	JavaScript can react to all existing HTML events in the page
+
+  Reference:
+  http://www.w3schools.com/js/js_htmldom.asp
+
+
+5.The flow of capturing and bubbling is called event 
+  propagation
+
+
+6.The event.stopPropagation() method stops the bubbling 
+  of an event to parent elements, preventing any parent event handlers from being executed.
+
+  Reference:
+  http://www.w3schools.com/jquery/event_stoppropagation.asp
+
+
+7.Bubbling:
+  After an event triggers on the deepest possible element, it then triggers on parents in nesting order.
+Capturing:
+  The event first goes down - that’s called capturing, 
+  and then bubbles up. This behavior is standartized in W3C specification.
+
+  According to this model, the event:
+  Captures down - through 1 -> 2 -> 3.
+  Bubbles up - through 3 -> 2 -> 1.

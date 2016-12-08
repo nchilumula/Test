@@ -1,0 +1,20 @@
+1.this keyword
+  this refers to its parent
+
+2.Closures are functions that refer to independent (free) 
+  variables. In other words, these functions 'remember' the environment in which they were created.
+
+  Reference:
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
+
+3.Hoisting is JavaScript's default behavior of moving  
+  declarations to the top.
+  In JavaScript, a variable can be declared after it has been used.
+  In other words; a variable can be used before it has been declared.
+
+  Reference:
+  http://www.w3schools.com/js/js_hoisting.asp
+
+
+4.

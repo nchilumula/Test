@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	//this keyword
+	var obj = {
+			    name: "obj",
+			    f: function () {
+			        return this + ":" + this.name;
+			    }
+			};
+			console.log(obj.f());
+	console.log("--------------------------------------");
+
+	//.call
+	function Product(name, price) {
+			  this.name = name;
+			  this.price = price;
+			  }
+
+			function Food(name, price) {
+			  Product.call(this, name, price);
+			  this.category = 'food';
+			   console.log(this.name + " " + this.category +" " +this.price);
+			}
+
+			var module=
+			{
+				setbindvar:function Toy(name, price) {
+					  Product.call(this, name, price);
+					  this.category = 'toy';
+					  console.log(this.name + " " + this.category +" " +this.price);
+					}
+				};
+
+			var cheese = new Food('feta', 5);
+			var fun = new Toy('robot', 40);
+	console.log("--------------------------------------");
+
+	//.bind 
+	var x=module.setbindvar;
+	x;
+	var boundx=x.bind(module);
+	boundx;
+
+</script>
+
+</body>
+</html>
