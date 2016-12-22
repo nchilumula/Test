@@ -1,0 +1,73 @@
+Angular JS can be added to a html page using
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+It is a javascript framework.
+
+AngularJS extends HTML with ng-directives:
+	The ng-app directive defines an AngularJS application.
+
+	The ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
+
+	The ng-bind directive binds application data to the HTML view. 
+
+Example:
+<div ng-app=""> //ng-app defines <div> is owner of an angular js application
+  <p>Name: <input type="text" ng-model="name"></p> //ng-model directive binds the value of the input field to the application variable name
+  <p ng-bind="name"></p> //ng-bind directive binds the innerHTML of the <p> element to the application variable name
+</div>
+
+The ng-init directive initializes AngularJS application variables.
+
+AngularJS expressions are written inside double braces: {{ expression }}
+
+-->AngularJS modules define AngularJS applications.
+-->AngularJS controllers control AngularJS applications. 
+-->The ng-app directive defines the application, the ng-controller directive defines the controller
+
+Example: index0.html
+----------------------------------------------------------
+Custom Directives:
+-->We can use the module to add own directives to applications
+-->You can invoke a directive by using:
+	Element name   <test-directive></test-directive>
+	Attribute	   <div test-directive></div>
+	Class          <div class="test-directive"</div>
+	Comment		   <!-- directive: test-directive -->
+
+By adding a restrict property with the value "A", the directive can only be invoked by attributes.E for Element name,C for Class,M for Comment
+
+Example: index1.html
+----------------------------------------------------------
+ng-repeat:
+The ng-repeat directive repeats an HTML element.
+It is used on array of objects.
+
+Example:index2.html
+----------------------------------------------------------
+Filters:
+Filters can be added to expressions by using the pipe character |, followed by a filter.
+
+currency: Format a number to a currency format.
+date: Format a date to a specified format.
+filter: Select a subset of items from an array.
+json: Format an object to a JSON string.
+limitTo: Limits an array/string, into a specified number of elements/characters.
+lowercase: Format a string to lower case.
+number: Format a number to a string.
+orderBy: Orders an array by an expression.
+uppercase: Format a string to upper case.
+
+Example: index3.html
+----------------------------------------------------------
+Service:
+In AngularJS, a service is a function, or object, that is available for, and limited to, your AngularJS application.
+
+-->We can use the $http service to request data from the server.
+-->The $timeout service is AngularJS' version of the window.setTimeout function.
+
+There are about 30 built in services in Angular JS
+
+We can also create a new service.
+
+Example: index4.html
+----------------------------------------------------------

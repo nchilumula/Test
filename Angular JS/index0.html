@@ -1,0 +1,28 @@
+<h2>ng directives, expressions and initialization</h2>
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<body>
+
+
+<div ng-app="myApp" ng-controller="myCtrl" ng-init="myCol='red'">
+Enter color to change background:
+	<input style="background-color: {{myCol}}" ng-model="myCol" value="{{myCol}}">
+<h4>Names</h4>
+First Name:<input type="text" ng-model="firstName"><br>
+Last Name:<input type="text" ng-model="lastName"><br>
+Full Name:{{firstName + " " + lastName}}
+</div>
+<script>
+	var app=angular.module('myApp',[]);
+	app.controller('myCtrl',function($scope){
+		$scope.firstName="John";
+		$scope.lastName="Cena";
+	});
+	</script>
+
+</script>
+</body>
+</html>
