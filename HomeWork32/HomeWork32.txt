@@ -1,0 +1,31 @@
+2.Single Page Application
+  A single-page application is a web application or web site that fits on a single web page with the goal of providing a user experience similar to that of a desktop application
+
+3,4,5. ngRoute, $routeProvider, ng-view
+  
+  ngRoute module provides routing and deeplinking services
+  $routeProvider allows us to create the routes so that we can link the files
+  ng-view is the place where the contents from ngRoute are displayed
+
+  Example:
+		  var app=angular.module("myApp",["ngRoute"])
+			app.controller("mainController",function($scope){
+				
+			});
+
+			app.config(function($routeProvider){
+			$routeProvider
+				.when('/',{
+					templateUrl: "C:/Users/Naveen/Documents/UIClass-Nov2016/HomeWork32/sample.html",
+					controller:"MainPageCtrl" 
+				})
+				.when('/PageTwo',{
+					template:"This is page two"
+				})
+				.otherwise({
+					template:"No page here"
+				})
+			})
+
+  Reference:
+  http://viralpatel.net/blogs/angularjs-routing-and-views-tutorial-with-example/
