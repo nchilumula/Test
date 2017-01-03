@@ -1,0 +1,16 @@
+1.Grunt
+  Automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, 
+  etc, the easier your job becomes. After you've configured it through a Gruntfile, a task runner can do most of that mundane work for you—and your team—with basically zero effort.
+
+  Reference:
+  http://gruntjs.com/
+
+
+2.What is gruntfile.js
+  Grunt is configured using a manifest named Gruntfile.js that defines, loads and registers tasks that can be run manually or configured to run automatically 
+
+
+3.Connect to port and initialization 
+
+
+Bower is a package manager. All of this is taken care in bower.json file
