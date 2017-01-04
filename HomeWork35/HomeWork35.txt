@@ -1,0 +1,23 @@
+-->Angular JS provides Unit Testing
+
+-->Jasmine helps keeping the tests well structured and documented.Jasmine is a behavior driven development framework for JavaScript that has become the most popular choice for testing Angular applications. Jasmine provides functions to help with structuring your tests and also making assertions.
+
+-->Karma is a JavaScript command line tool that can be used to spawn a web server which loads your application's source code and executes your tests. You can configure Karma to run against a number of browsers, which is useful for being confident that your application works on all browsers you need to support. Karma is executed on the command line and will display the results of your tests on the command line once they have run in the browser.
+
+
+-->There are three ways to run your tests with karma:
+	Karma Server with Auto Runs on File Change
+	Karma Server with Grunt Watch
+	Single Run
+
+-->In Jasmine we use the "describe" function to group our tests together.
+And then each individual test is defined within a call to the "it" function.
+Grouping related tests within "describe" blocks and describing each individual test within an "it" call keeps your tests self documenting.
+
+-->Expectations are built with the function expect which takes a value, called the actual. It is chained with a Matcher function, which takes the expected value.
+toBe() makes sure that they're the exact same object.
+expect(x).toBe(y); compares objects or primitives x and y and passes if they are the same object
+
+-->Protractor is an end-to-end test framework for AngularJS applications. Protractor is a Node.js program built on top of WebDriverJS. Protractor runs tests against your application running in a real browser, interacting with it as a user would.
+
+-->When an Angular application needs some data from a server, it calls the $http service, which sends the request to a real server using $httpBackend service. With dependency injection, it is easy to inject $httpBackend mock and use it to verify the requests and respond with some testing data without sending a request to a real server.
