@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+</head>
+<body>
+<div ng-app="mainApp">
+	<p><a href="#file1">File1</a></p>
+	<p><a href="#file2">File2</a></p>
+	<div ng-view></div>
+
+	<script type="text/ng-template" id="file1.htm">
+		<h2>File1</h2>
+		{{message}}
+	</script>
+
+	<script type="text/ng-template" id="file2.htm">
+		<h2>File2</h2>
+		{{message}}
+	</script>
+</div>
+
+<script>
+	var mainApp=angular.module("mainApp",['ngRoute']);
+	mainApp.config(['$routeProvider',function($routeProvider){
+		$routeProvider
+		.when('/file1',{
+			templateUrl:'file1.htm',
+			controller:'file1Contr'
+		})
+
+		.when('/file2',{
+			templateUrl:'file2.htm',
+			controller:'file2Contr'
+		})
+
+		.otherwise({
+			redirectTo:'file1.htm'
+		});
+	}]);
+
+	mainApp.controller('file1Contr',function($scope){
+		$scope.message="File1 is loaded";
+	});
+
+	mainApp.controller('file2Contr',function($scope){
+		$scope.message="File2 is loaded";
+	});
+</script>
+</body>
+</html>

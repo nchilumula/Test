@@ -1,0 +1,35 @@
+<html>
+   <head>
+   </head>
+   <body>
+      <div ng-app = "" ng-controller = "studentController">
+      
+         <table>
+            <tr>
+               <th>Name</th>
+               <th>Roll No</th>
+               <th>Percentage</th>
+            </tr>
+         
+            <tr ng-repeat = "student in students">
+               <td>{{ student.Name }}</td>
+               <td>{{ student.RollNo }}</td>
+               <td>{{ student.Percentage }}</td>
+            </tr>
+         </table>
+      </div>
+      
+      <script>
+         function studentController($scope,$https:) {
+            var url = "data.txt";
+         
+            $https:.get(url).success( function(response) {
+               $scope.students = response;
+            });
+         }
+      </script>
+      
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+      
+   </body>
+</html>
